@@ -1,6 +1,8 @@
 * {
 	font-family: Tahoma, Arial;
 	color:#444444;
+	box-sizing: border-box;
+
 }
 
 a
@@ -16,17 +18,7 @@ body
 {
 	/*background-image: url("https://templated.co/items/demos/industrious/images/bg.jpg");	*/
 	background-color: #f2eee4;
-	margin: 0; padding: 0;
-}
-
-table {
-	border-spacing: 30px;
-	border-collapse: separate;
-}
-
-td{
-	background-color: white;
-	padding: 30px;
+	margin: 0; padding: 0;	
 }
 
 .nav
@@ -35,7 +27,9 @@ td{
 	color: white;   
 	font-size: 18px;	
 	padding: 15px;
-	margin:0 auto;	
+	margin:0 auto;
+	position: sticky;	
+	top: 0;
 }
 
 
@@ -48,4 +42,21 @@ td{
 .foot
 {
 	background-color: black;
+}
+
+.tableLike
+{
+	background-color: white;
+	padding: 30px;
+	margin: 20px;
+	flex: 30%;	
+	width: 30%;
+	float:left;
+}
+
+.menu
+{
+	color:#787878;
+	position:absolute;
+	right:15px;
 }
