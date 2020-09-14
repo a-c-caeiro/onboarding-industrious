@@ -1,0 +1,51 @@
+* {
+	font-family: Tahoma, Arial;
+	color:#444444;
+}
+
+a
+{
+	text-decoration: none;   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #555555;
+}
+
+body 
+{
+	/*background-image: url("https://templated.co/items/demos/industrious/images/bg.jpg");	*/
+	background-color: #f2eee4;
+	margin: 0; padding: 0;
+}
+
+table {
+	border-spacing: 30px;
+	border-collapse: separate;
+}
+
+td{
+	background-color: white;
+	padding: 30px;
+}
+
+.nav
+{	
+	background-color: black;  
+	color: white;   
+	font-size: 18px;	
+	padding: 15px;
+	margin:0 auto;	
+}
+
+
+.row
+{
+	text-align: center;
+	padding: 100px;
+}
+
+.foot
+{
+	background-color: black;
+}
