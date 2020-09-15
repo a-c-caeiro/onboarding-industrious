@@ -23,6 +23,11 @@ body
 	background-size: 100%;	    
 	margin: 0; padding: 0;	
 }
+body 
+{
+	background-image: url("https://templated.co/items/demos/industrious/images/bg.jpg");
+	background-repeat: no-repeat;	
+}
 
 .nav
 {	
@@ -36,13 +41,13 @@ body
 }
 .banner
 {		
-	background-color: red; /* For browsers that do not support gradients */
-  	background-image: linear-gradient(to bottom right, red, black);
+  	background-image: linear-gradient(to bottom right, #690a14, black);
   	color: #111111;
   	height: 35rem;  	
   	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 	font-size: 1.5rem;
 }
 
@@ -53,17 +58,13 @@ body
   	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 	font-size: 1.5rem;
 }
 
 .row 
 {
-	height: auto; 
-	overflow: auto; 
 	text-align: center;
-	position: relative;
-	  display: inline-block;        /* Default of all elements, unless UA stylesheet overrides */
-
 }
 
 .foot
