@@ -1,11 +1,10 @@
 .tableicons
 {		
   	color: #111111;
-  	height: 35rem;  	
+  	height: 60rem;  	
   	display: block;
 	align-items: center;
 	justify-content: center;
-	flex-wrap: wrap;
 	font-size: 1rem;
 	margin: 100px;
 
@@ -14,19 +13,17 @@
 .content
 {
 	display: flex;
-	align-items: stretch;
+	align-items: center;
 	flex-wrap: wrap;
 	margin: 20px;
 }
 
 .tableElement
 {
-	flex: 1 auto;
+	width: 250px;
 	padding: 20px;
 	background-color: white;
 	margin: 20px;
-	width: 30%;
-	height: 60%;
 	a{ color: red; }
 }
 

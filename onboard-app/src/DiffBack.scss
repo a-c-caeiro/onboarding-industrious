@@ -1,0 +1,26 @@
+.diffback
+{			
+	height: 25rem;  	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-size: 1rem;
+	background-color: #ce1b28;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(https://templated.co/items/demos/industrious/images/cta01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-postion: bottom;
+    background-position-x: center;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    background-position-y: bottom;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+
+
+    h2,p{color : rgba(255, 255, 255, 0.75);}
+}
+.row{margin:100px;}

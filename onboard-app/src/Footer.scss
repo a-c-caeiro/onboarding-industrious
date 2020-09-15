@@ -1,0 +1,47 @@
+.foot
+{ 
+	position: relative;
+  	bottom: 0;
+  	width: 100%;
+  	height: 33rem;
+	background-color: black; 
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
+
+.upper
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 100px;
+}
+
+.about
+{
+	width: 60%;
+}
+.list
+{
+	width: 25%;
+}
+.social
+{
+	width: 15%;
+	.fa 
+	{
+		color: white;
+  		padding: 5px;
+  		font-size: 30px;
+	}
+}
+.lower
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 50px;
+}

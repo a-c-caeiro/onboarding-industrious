@@ -5,6 +5,9 @@ import './index.scss';
 import NavBar from './NavBar';
 import Banner from './Banner';
 import TableIcons from './TableIcons';
+import DiffBack from './DiffBack';
+import Team from './Team';
+import Footer from './Footer';
 
 class Website extends React.Component {
   render() {
@@ -13,10 +16,10 @@ class Website extends React.Component {
         <NavBar />
         <Banner />
         <TableIcons />
+        <DiffBack />
+        <Team />
+        <Footer />
       </>
-      /*<DiffBack />
-      <Team />
-      <Footer />*/
     );
   }
 }
