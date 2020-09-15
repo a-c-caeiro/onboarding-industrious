@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'font-awesome/css/font-awesome.min.css';
 import './index.scss';
 import NavBar from './NavBar';
 import Banner from './Banner';
+import TableIcons from './TableIcons';
 
 class Website extends React.Component {
   render() {
@@ -10,9 +12,9 @@ class Website extends React.Component {
       <>
         <NavBar />
         <Banner />
+        <TableIcons />
       </>
-      /*<TableIcons/>
-      <DiffBack />
+      /*<DiffBack />
       <Team />
       <Footer />*/
     );

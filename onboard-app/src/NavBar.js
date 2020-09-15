@@ -5,7 +5,7 @@ class NavBar extends React.Component {
   render() {
     return (
       /* Navigation Bar */
-  	  <nav class="nav">
+  	  <nav className	="nav">
         <a href="index.html">Industrious</a>
     	<a href="index.html" className="menu" >Menu</a>        
   	  </nav>

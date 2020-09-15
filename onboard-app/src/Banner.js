@@ -5,8 +5,8 @@ class Banner extends React.Component {
   render() {
     return (
 	  /* section Intro */
-	  <section class="banner">
-	    <div class="row">
+	  <section className="banner">
+	    <div className="row">
 	      <h1>INDUSTRIOUS</h1>
 	      <p>
 	      A responsive business oriented template with a video background<br/>
