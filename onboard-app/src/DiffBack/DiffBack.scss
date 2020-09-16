@@ -13,7 +13,6 @@
     background-size: cover;
     background-postion: bottom;
     background-position-x: center;
-    position: relative;
     text-align: center;
     z-index: 1;
     background-position-y: bottom;
@@ -22,4 +21,9 @@
 
 
     h2,p{color : rgba(255, 255, 255, 0.75);}
+    p
+    { 
+        margin: 0 10%;  
+        font-size: 0.75 rem; 
+    }
 }
