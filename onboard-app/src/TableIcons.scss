@@ -6,25 +6,37 @@
 	align-items: center;
 	justify-content: center;
 	font-size: 1rem;
-	margin: 100px;
-
+	
 }
 
 .content
 {
 	display: flex;
-	align-items: center;
+	align-items: stretch;
 	flex-wrap: wrap;
-	margin: 20px;
+	justify-content: space-around;
+	margin: 2.5rem 0;
+	padding:20px;
 }
 
 .tableElement
 {
-	width: 250px;
+	border-radius: 5px;
+	flex-basis: 100%;
 	padding: 20px;
+	margin-bottom: 30px;
 	background-color: white;
-	margin: 20px;
 	a{ color: red; }
+}
+
+@media only screen and (min-width: 748px) {
+	
+	.tableElement { flex-basis: 47%; }
+}
+
+@media only screen and (min-width: 900px) {
+	
+	.tableElement { flex-basis: 30%; }
 }
 
 .fa {
