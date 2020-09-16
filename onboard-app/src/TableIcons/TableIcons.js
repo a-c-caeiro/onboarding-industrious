@@ -1,8 +1,7 @@
 import React from 'react';
 import './TableIcons.scss';
 import 'font-awesome/css/font-awesome.min.css';
-
-
+import data from '../data/data.json'
 
 class Element extends React.Component {
   render() {
@@ -18,6 +17,10 @@ class Element extends React.Component {
   }
 }
 
+const  tableiconData= data.map( ( data) =>{
+                  return  (
+                    <Element title={data.name} icon={data.iconClass} text={data.text}/>
+                  ) } )
 
 class TableIcons extends React.Component {
   render() {
@@ -28,24 +31,7 @@ class TableIcons extends React.Component {
           <h2> SEM TURPIS AMET SEMPER </h2>
           <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare<br/> aliquet accumsan erat tempus amet porttitor.</p>
           <div className="content">
-            <Element title="FEUGIAT CONSEQUAT" icon="fa fa-address-card" 
-                     text="Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus."
-                     />
-            <Element title="ANTE SEM INTEGER" icon="fa fa-copy"
-                     text="Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus."
-                     />      
-            <Element title="IPSUM CONSEQUAT" icon="fa fa-save"
-                     text="Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus."
-                     />
-            <Element title="INTERDUM GRAVIDA" icon="fa fa-line-chart"
-                     text="Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus."
-                     />
-            <Element title="FAUCIBUS CONSEQUAT" icon="fa fa-send"
-                     text="Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus."
-                     />
-            <Element title="ACCUMSAN VIVERRA" icon="fa fa-qrcode"
-                     text="Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus."
-                     />            
+            {tableiconData}           
           </div>
         </div> 
       </section>

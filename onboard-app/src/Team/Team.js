@@ -1,10 +1,10 @@
 import React from 'react';
 import './Team.scss';
 
-class Person extends React.Component {
+/*class Person extends React.Component {
   render() {
     return (
-      /* section Intro */
+      // section Intro 
       <div className="tableElement">
         <blockquote>
         	<p><
@@ -15,7 +15,7 @@ class Person extends React.Component {
       </div>
     );
   }
-}
+}*/
 
 class Team extends React.Component {
   render() {
